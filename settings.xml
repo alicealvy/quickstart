@@ -28,6 +28,7 @@
   <proxies>
     <!-- proxy
       Specification for one proxy, to be used in connecting to the network.
+
     <proxy>
       <id>optional</id>
       <active>true</active>
@@ -39,7 +40,8 @@
       <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
     </proxy>
     -->
-
+  </proxies>
+    
   <profiles>
 
     <!-- Configure the JBoss GA Maven repository -->
